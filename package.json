@@ -1,0 +1,19 @@
+{
+  "name": "paulthrobert.github.io",
+  "version": "1.0.0",
+  "description": "Github pages site for Paul Davis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulthrobert/paulthrobert.github.io.git"
+  },
+  "author": "Paul Robert Davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulthrobert/paulthrobert.github.io/issues"
+  },
+  "homepage": "https://github.com/paulthrobert/paulthrobert.github.io#readme"
+}
