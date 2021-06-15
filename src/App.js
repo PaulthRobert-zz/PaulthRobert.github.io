@@ -6,12 +6,15 @@ class App extends React.Component{
         this.state ={
             drillDown: 'Home'
         }
-        this.render(
+    }
+    render(){
+        return(
             <div>
-                <H1>Paul Robert Davis</H1>
+                <h1>Paul Robert Davis</h1>
             </div>
         )
     }
 }
+
 
 export default App
