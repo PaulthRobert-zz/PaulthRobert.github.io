@@ -2,14 +2,16 @@
 
 import React from 'react'
 import ResumeHeader from './ResumeHeader'
-import ResumeBody from './ResumeBody'
+import WorkExperience from './WorkExperience'
+import Education from './Education'
 
 class Resume extends React.Component{
     render(){
         return(
             <div>
                 <ResumeHeader/>
-                <ResumeBody/>
+                <WorkExperience/>
+                <Education/>
             </div>
         )
     }
