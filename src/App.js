@@ -1,4 +1,5 @@
 import React from "react"
+import Resume from './Resume'
 
 class App extends React.Component{
     constructor(props){
@@ -9,9 +10,7 @@ class App extends React.Component{
     }
     render(){
         return(
-            <div>
-                <h1>Paul Robert Davis</h1>
-            </div>
+            <Resume/>
         )
     }
 }
