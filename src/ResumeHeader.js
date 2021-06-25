@@ -2,7 +2,8 @@
 
 import React from 'react'
 
-
+import gitHubIcon from './graphics/GitHub-Mark-32px.png'
+import linkedInIcon from './graphics/LI-In-Bug.png'
 
 class ResumeHeader extends React.Component{
     render(){
@@ -21,14 +22,14 @@ class ResumeHeader extends React.Component{
                         <div className='col-sm-2 col-4'>
                             <div className='thumbnail'>
                                 <a href='https://github.com/PaulthRobert/'>
-                                    <img src='src/graphics/GitHub-Mark-32px.png'  className='img-thumbnail'/> 
+                                    <img src={gitHubIcon}  className='img-thumbnail'/> 
                                 </a>                           
                             </div>
                         </div> 
                         <div className='col-sm-2 col-4 d-flex justify-content-start' >
                             <div className='thumbnail'>
                                 <a href='https://www.linkedin.com/in/paulrobertdavis/'>
-                                    <img src='src/graphics/LI-In-Bug.png' className='img-thumbnail'></img>
+                                    <img src={linkedInIcon} className='img-thumbnail'></img>
                                 </a>                           
                             </div>
                         </div>
