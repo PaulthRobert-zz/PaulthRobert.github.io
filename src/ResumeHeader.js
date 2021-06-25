@@ -2,6 +2,8 @@
 
 import React from 'react'
 
+
+
 class ResumeHeader extends React.Component{
     render(){
         return(
@@ -19,14 +21,14 @@ class ResumeHeader extends React.Component{
                         <div className='col-sm-2 col-4'>
                             <div className='thumbnail'>
                                 <a href='https://github.com/PaulthRobert/'>
-                                    <img src='src\graphics\GitHub-Mark-32px.png' className='img-thumbnail'/> 
+                                    <img src='src/graphics/GitHub-Mark-32px.png'  className='img-thumbnail'/> 
                                 </a>                           
                             </div>
                         </div> 
                         <div className='col-sm-2 col-4 d-flex justify-content-start' >
                             <div className='thumbnail'>
                                 <a href='https://www.linkedin.com/in/paulrobertdavis/'>
-                                    <img src='src\graphics\LI-In-Bug.png' className='img-thumbnail'></img>
+                                    <img src='src/graphics/LI-In-Bug.png' className='img-thumbnail'></img>
                                 </a>                           
                             </div>
                         </div>
