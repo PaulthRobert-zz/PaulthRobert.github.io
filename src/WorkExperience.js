@@ -18,7 +18,7 @@ class WorkExperience extends React.Component{
                             data-target='#collapseOne'
                             aria-controls='collapseOne'>
                                 <div className='row'>
-                                    <div className='col-12 col-sm-6 d-flex justify-content-start'>Database Report Writer</div>
+                                    <div className='col-8 col-sm-6 d-flex justify-content-start'>Database Report Writer</div>
                                     <div className='col-12 justify-content-start col-sm-6 d-flex justify-content-sm-end'>July 2020 - Present</div>
                                 </div>
                         </button>
@@ -33,11 +33,7 @@ class WorkExperience extends React.Component{
                                 <div className='col'>DCI Donor Services</div>
                                 <div className='col d-inline-flex justify-content-end'>Sacramento, CA</div>
                             </div>
-                            Authored SQL ETL on the Business Intelligence team under the Director of Process Improvement. 
-                            Developed timely SQL Ad Hoc queries and reports. Designed and developed SSRS paginated reports and Power BI dashboards utilizing multiple internal and external data sources. 
-                            Responsible for development of multiple high priority executive facing deliverables. 
-                            Developed in PowerShell a prototype software solution to automate a highly manual medical record review process. The prototype was “full stack” with SQL data read, PowerShell data processing, and and interactive user interface. 
-                            The prototype was adopted in full by the development team and the tool is being utilized currently, saving tens of hours per week for multiple users.
+                            Tried desperately to survive yet another icky workplace . . .  😫
                         </div>
                     </div>
                 </div>
