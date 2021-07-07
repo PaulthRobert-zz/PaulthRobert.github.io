@@ -33,6 +33,7 @@ class ResumeHeader extends React.Component{
                                 </a>                           
                             </div>
                         </div>
+                        <hr></hr>
                     </div>
                 </div>
             </div>

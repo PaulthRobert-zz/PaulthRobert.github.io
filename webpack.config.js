@@ -21,13 +21,15 @@ module.exports = {
     rules: [
       {
         test: /\.jsx?$/,
-        exclude: /node_modules/,
-        loader: require.resolve("babel-loader"),
-      },
-      {
-        test: /\.css$/,
-        use: ["style-loader", "css-loader"],
-      },
+        exclude: /(node_modules)/,
+        use: [
+              {loader: 'babel-loader'},
+              // query: {presets: ["react"]}
+           ]
+     }, {
+       test: /\.css$/,
+        use: ['style-loader', 'css-loader']
+     },
       {
         test: /\.(png|svg|jpg|gif)$/,
         use: ['file-loader'],
